@@ -1,0 +1,335 @@
+body {
+    //background: #0F2027;  /* fallback for old browsers */
+    //background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    //background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    max-width: 1080;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    background-color: #232526;
+}
+
+.super-box{
+    background-color: #ffd0aa;
+    background-image: linear-gradient(125deg, #e2a16c 4%, #edeec7 14%, #f365b5 25%, #8f5eb9 38%, #19242c 70%);
+    border-radius: 30px;
+    background-color: black;
+    width:1125px;
+    margin:auto;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.main-container{
+  width: 950px;
+  margin: auto;
+}
+
+
+//navbar
+
+#navbar {
+    margin-left: 12px;
+
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#navbar a{ //compléter le hover des a/
+    text-decoration: none;
+    color: white;
+    
+}
+
+#navbar a:hover{
+    text-decoration: underline;
+}
+
+//ul et li
+
+ul {
+  // margin-right: 10px;
+  font-size: 0.9rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+
+li {
+  width: auto;
+
+  justify-content: space-between;
+  margin-bottom: 80px;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+
+
+li h1{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: xx-large;
+}
+
+li h1:hover{
+color: #fff;
+}
+
+//figure
+
+.circle {
+    border: 1px solid white;
+    display: block;
+    background: black;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    margin: 0;
+    margin-right: 5px;
+    background-image: linear-gradient(-225deg, #30cac8 0%, #bcb7fc 56%, #f5a3ae 100%);
+}
+
+figure{ 
+    margin: 0;
+}
+
+//btn
+
+.container{
+    padding-bottom: 20px;
+}
+
+.btn-1 {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)
+}
+.btn-1 {
+   
+   margin-left: 40px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #fff;
+   border-radius: 10px;
+   width: 100px;
+   height: 35px;
+   cursor: pointer;
+   letter-spacing: 1px;
+   border: unset;
+   font-weight: bold;
+ }
+
+ .btn-1:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+
+.btn-2 {
+    box-shadow: 0 0 20px #fff;
+    border: transparent;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-right: 5px;
+    width: 115px;
+    height: 52px;
+    border-radius: 10px;
+    background: rgb(3,1,24);
+    background: linear-gradient(0deg, rgba(3,1,24,1) 0%, rgba(0,255,106,0) 0%, rgba(250,46,97,0.8311376633986928) 0%, rgba(218,3,152,0.6121834150326797) 100%);
+    color: white;
+}
+
+.btn-2:hover{
+     background-color: blueviolet;
+}
+
+.btn-3 {    //codepen.io/miraviolet/pen/ZobWEg
+    letter-spacing: 1px;
+    padding: 1.2rem;
+    font-family: 'Poppins' ;
+    font-weight: 600;
+    padding: .5rem 3rem;
+    background-origin: border-box ;
+    background-clip: border-box;
+    width:220px;
+    height:50px;
+    cursor:pointer;
+    color:rgba(202, 9, 115, 0.658);
+    margin: auto;
+    border:2px solid transparent;
+    text-align:center;
+    font-size: 0.8rem;
+    background:linear-gradient(to bottom, #4f4f50bb, #ce96ff)  //NE PAS OUBLER DE CHANGER LA COULEUR SELONT LE BACKGROUND DU BODY
+    Padding-box fixed , linear-gradient(180deg, rgba(238, 49, 153, 0.507) 1%, rgb(212, 209, 209) 100%) border-box;
+}
+
+
+.btn-3:hover{
+    color: #fff;
+    box-shadow: none;
+    background:
+     linear-gradient(180deg, rgba(199, 90, 150, 0.432) 100%, rgba(255,255,255,1) 100%) border-box;
+     border: 2px solid  rgba(255, 255, 255, 0.644);
+}
+
+//mega-box
+
+.mega-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+//article
+
+#article {
+    display: flex;
+    align-items: left;
+    // background-color: red;
+    color:white ;
+    flex-direction: column;
+    flex: 2 1 auto;
+    max-width: 370px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+  }
+
+  #article h1{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 3.2rem;
+    margin: 0;
+  }
+
+  h5{
+    color: white(2,0,36);
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 12px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+  }
+
+  h6{
+    letter-spacing: 1px;
+    color: white;
+    font-size: 100%;
+    font-weight: 100;
+    padding-bottom: 10px;
+  }
+
+//second-container
+
+  .second-container{ 
+    font-size: xx-large;
+    display: flex;
+    justify-content: right; 
+    width: 880px;
+  }
+
+  .second-container a{
+      display: flex;
+      justify-content: right;
+      align-items: right;
+      margin-right: 5px;
+      text-decoration: none;
+      color: white;
+  }
+
+//picture
+
+#picture img{
+  width: 370px;
+  height: 450px;
+  margin-left: 70px;
+  border-radius: 15px;
+  
+}
+
+//second-article
+
+  #second-article h2{
+      width: 100%;
+      display: flex;
+      color: white;
+      font-weight: bold;
+      justify-content: left;
+      margin-top: 8px;
+      font-size: 200%;
+      
+      margin-left:75px;
+  }
+
+
+//pic-container et overlay
+
+  .pic-container img {
+    
+    width: 184px;
+    height: 180px;
+    margin-right: 21px;
+    border-radius: 10px;
+    margin-top: 2%;
+  }
+  
+
+  .pic-container{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  img{
+    transition: .5 ease;
+  }
+
+  .overlay {
+    display: flex;
+    margin-left: 10px;
+    top: 20px;
+    justify-content: center;
+    transition: .5 ease;
+    position: absolute;
+    align-items: center;
+  }
+ 
+ .overlay i{
+    color: white;
+    opacity: 0;
+    margin-left: 60px;
+    transition: .5 ease;
+ }
+
+  .text {
+    font-family: 'Poppins';
+    border-radius: 5px;
+    padding: 3px;
+    background-color: green;
+    color: white;
+    font-size: 11px;
+    opacity: 0;
+  }
+
+  .card:hover i{
+    opacity: 1;
+  }
+
+  .card:hover img{
+    opacity: 0.3;
+  }
+
+  .card:hover .text{
+    opacity: 1;
+  }
+
+  .card a{
+    cursor: pointer;
+  }
+
+ 
+  

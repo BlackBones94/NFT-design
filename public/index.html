@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>NFT</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+        <!-- <script src="script.js"></script> -->
+        <script src="https://kit.fontawesome.com/3be84c4c65.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+    <div class="super-box">
+        <div class="main-container">
+            <div id="navbar">
+                <ul>
+                    <li>
+                        <h1>
+                            <figure class="circle"></figure>
+                            <a href="">
+                                NFT
+                            </a>
+                        </h1>
+                    </li>
+                    <li>
+                        <a href="">Downloads</a>
+                    </li>
+                    <li>
+                        <a href="">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="">Features</a>
+                    </li>
+                    <li>
+                        <a href="">About Us</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                    <li>
+                        <button class="btn-1">Create</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="mega-box">
+                <div id="article">
+                    <h5>BEST ASSETS FOR NFT WEB</h5>
+                    <h1>Collect super rare digital assets.</h1>
+                    <h6>These colorful 3D shapes are perfect for many different design projects</h6>
+                    <div class="container">
+                        <button class="btn-2">Explore</button>
+                        <button class="btn-3">Connect wallet</button>
+                    </div>
+                </div> 
+                <div id="picture"> <!--Recadrer l'image singe1-->
+                    <img name="slide">
+                </div>
+            </div>
+            <div class="second-container">
+                <a href="">
+                    <i class="far fa-arrow-alt-circle-left"></i>
+                </a>    
+                <a href="">
+                    <i class="far fa-arrow-alt-circle-right"></i>
+                </a>
+            </div>
+            <div id="second-article">
+                <h2>Hot bid</h2>
+                <div class="pic-container"> <!--Finir les size des pics-->
+                    <div class="card">
+                        <img src="/images/singe2.png" alt="">
+                        <div class="overlay">
+                            <a>
+                                <div class="text">PURCHASING ! </div>
+                            </a>
+                            <a>
+                                <i class="fas fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/images/singe4.jpg" alt="">
+                        <div class="overlay">
+                            <a>
+                                <div class="text">PURCHASING !</div>
+                            </a>
+                            <a>
+                                <i class="fas fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/images/singe3.jpg" alt="">
+                        <div class="overlay">
+                            <a>
+                                <div class="text">PURCHASING !</div>
+                            </a>
+                            <a>
+                                <i class="fas fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/images/singe5.png" alt="">
+                        <div class="overlay">
+                            <a>
+                                <div class="text">PURCHASING !</div>
+                            </a>
+                            <a>
+                                <i class="fas fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+
+    let i= 0;
+    let images = ['/images/singe1.png', '/images/singe2.png','/images/singe3.jpg'];
+    let time = 5000;
+
+        function changeImg(){
+            document.slide.src = images[i];
+
+            if (i < images.length - 1){
+                i++;
+            }else{
+                i = 0;
+            }
+            setTimeout("changeImg()", time)
+        }
+
+        window.onload = changeImg;
+</script>
+
+
+</body>
+</html>
